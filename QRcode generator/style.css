@@ -44,3 +44,44 @@ body{
     cursor: pointer;
 }
 
+#img-box{
+    width: 200px;
+    border-radius: 5px;
+    max-height: 0;
+    overflow: hidden;
+}
+
+#img-box img{
+    width: 100%;
+    padding: 10px;
+}
+
+#img-box.show-img{
+    max-height: 300px;
+    margin: 10px auto;
+    border: 1px solid #5c0d0d;
+}
+
+.error{
+    animation: shake 0.1s linear 10;
+}
+
+@keyframes shake{
+    0%{
+        transform: translateX((0))
+    }
+    25%{
+        transform: translate(-2px)
+    }
+    
+    50%{
+        transform: translateX(0)
+    }
+
+    75%{
+        transform: translateX(2px)
+    }
+    100%{
+        transform: translate(0)
+    } 
+};
