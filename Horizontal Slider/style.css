@@ -12,15 +12,21 @@ body{
 .gallery{
     width: 900px;
     display: flex;
+    overflow-x: scroll;
 }
 
 .gallery div{
     width: 100%;
     display: flex;
+    flex: none;
     gap: 20px;
     padding: 10px;
 }
 
 .gallery div img{
     width: 100%;
+}
+
+.gallery::-webkit-scrollbar{
+    display: none;
 }
