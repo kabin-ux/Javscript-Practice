@@ -36,6 +36,17 @@ button{
     position: absolute;
     left: 80%;
 }
+
+#message{
+    position: absolute;
+    bottom: -30px;
+    color: #fff;
+    font-size: 15px;
+}
+
+::placeholder{
+    font-size: 15px;
+}
 .submit{
     /* color: white; */
 }
