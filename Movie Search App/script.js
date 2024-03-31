@@ -26,7 +26,7 @@ const showMovies = (data) => {
             //     </div>
             // </div>
             // `
-            const box = document.createElement("div")
+            const box = document.createElement("div"
             box.classList.add("box")
             box.innerHTML = `
                 <img src="${imagePath}" alt="" />
